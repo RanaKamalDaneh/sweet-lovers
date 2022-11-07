@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+textarea {
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: black;
+}
+
+* {
+    font-family:'Roboto', sans-serif;
+    font-style: bold;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+/*HEADER*/
+
+.nav-1{
+
+    background-color: rgb(0, 0, 0);
+    padding:15px;
+    display:flex;
+    
+}
+
+.nav-1 li{
+    display: inline-block;
+}
+
+
+/*بشكل عام */
+.nav-1 ul li {
+    padding: 10px;
+    margin: 5px;
+}
+
+.nav-1 li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.nav-1 li a:hover{
+    background-color: rgb(235, 152, 0);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+/**/
+
+.nav-1 .logo{
+    font-size:x-large;
+    padding-left: 10%;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.nav-1 .ul-2 {
+    padding-left: 10%;
+}
+
+.nav-1 .icons{
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.nav-1 .search-form{
+    height: 2rem;
+    display: flex;
+    padding-left: 1%;
+}
+
+
+
+
+/*main*/
+
+/*body{
+    background-image:url(./pict/wallpaper\ background\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 30%;
+    
+}*/
+
+.page-1{
+    padding: 19%;
+    background-image:url(./pict/pic\ 16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.page-1 .span , .parag {
+    padding: 20px;
+}
+.page-1 .span{
+    font-size:xx-large ;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.page-1 .parag{
+    font-size: larger;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.page-1 .contact{
+    display: inline;
+    background-color: rgb(11, 218, 218);
+    margin: 60%;
+    padding: 10px;
+}
+
+.page-1 .contact a {
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+    transition: 0.8s;
+}
+
+.page-1 .contact a:hover{
+    margin: 6px;
+}
+
+
+
+
+
+
+/*.page-2{
+    padding-bottom: 40%;
+    background-image:url(./pict/wallpaper\ background\ 5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}**/
+
+
+/*.page-2 .about ,.p-2{
+    background-image:url(./pict/wallpaper\ background\ 5.jpg) ;
+  color: aliceblue;
+  background-color: aliceblue;
+  display: block;
+}
+
+.page-2 .p-2{
+    display: inline-block;
+    padding-right: 80%;
+    text-align: center;
+}
+
+.page-2 .img-1{
+    padding-left: 49.4%;
+    background-repeat: no-repeat;
+}*/
+
+.page-2{
+    background-image: url(./pict/wallpaper\ background\ 5.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    margin: 10%;
+    padding: 1%;
+}
+
+.page-2 .about ,.p-2{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: solid rgb(255, 0, 157);
+    text-align: center;
+    width: 10%;
+    padding-left: 30%;
+    margin: 5%;
+}
+
+.page-2 .about{
+    margin: 10%;
+    padding: 30px;
+
+}
+
+.page-2 .p-2{
+    margin: 10%;
+    padding: 30px;
+}
+
+/*.page-2 .img-1{
+    padding-left: 49.4%;
+    padding-bottom: 60%;
+}*/
+
+
+
+/*.page-3 .quality{
+    width: 15%;
+    height: 10%;
+    border: solid;
+    text-align: center;
+
+}*/
+
+/*.page-3{
+    background-image: url(./pict/wallpaper\ background\ 3.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}*/
+
+.page-3{
+    text-align: center;
+    background-color: black;
+}
+
+
+
+.page-3 div{
+    display: inline-block;
+    width: 30%;
+}
+
+.page-3 .quality{
+    padding-bottom: 10%;
+    color: rgb(209, 209, 209);
+}
+
+.page-3 .quality h1{
+    
+    padding: 10%;
+    font-size: xx-large;
+    color: rgb(153, 55, 25);
+}
+
+.form .order{
+    background-color:blueviolet;
+    color:rgb(0, 0, 0);
+    font-size:40px;
+    width: 20%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: 6px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form{
+    background-image: url(./pict/pic\ 18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form .page-4{
+    
+    background-color:rgb(255, 255, 255);
+    width:39%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+}
+
+table{
+    width: 100px;
+    text-align: center;
+}
+
+
+
+table td input{
+    text-align: center;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    width: 200px;
+    margin-left: 100px;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+.page-4 table .sub{
+    width: 50%;
+    text-align: center;
+}
+
+.page-4 table .sub input{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 1000;
+    width: 20%;
+    border-radius: 25px;
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.page-4 table .sub :hover{
+    padding: 20px;
+}
+
+
+footer{
+    background-color:rgb(0, 0, 0) ;
+    color: aliceblue;
+}
+
+.footer-1{
+    display: flex;
+}
+
+.footer-1 .box{
+    flex-basis: 50%;
+    padding: 50px 30px;
+}
+
+.box h2{
+    color: rgb(38, 50, 214);
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 40px 0 0 0;
+    
+}
+
+.left .content p{
+    text-align: justify;
+}
+
+.left .content .social{
+    margin: 20px 0 0 0;
+
+}
+
+.left .content .social a{
+    padding: 0 2px;
+    
+}
+
+.left .content .social a span{
+    color: aliceblue;
+    height: 30px;
+    width: 40px;
+    background: #1a1a1a; 
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover{
+    background:#2632d6;
+}
+
+.center .content {
+    margin: 40px 0 0 0; 
+}
+
+.center .content span{
+    padding: 10px;
+}
+
+.right .content .for .btn button{
+    width:180px;
+    height: 30px;
+    background:#2632d6;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.right .content .for .btn button:hover{
+    border:2px solid rgb(255, 255, 255);
+    
+}
